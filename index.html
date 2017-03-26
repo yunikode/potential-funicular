@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello MarkedElectron!</title>
+    <link rel="stylesheet" href="./semantic.min.css">
+  </head>
+  <body>
+    <div class="ui container">
+
+
+        <div class="ui dropdown icon item">
+          <i class="wrench icon"></i>
+          <div class="menu">
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">New</span>
+              <div class="menu">
+                <div class="item">Document</div>
+                <div class="item">Image</div>
+              </div>
+            </div>
+            <div class="item" id="openFile">
+              Open...
+            </div>
+            <div class="item">
+              Save...
+            </div>
+            <div class="item">Edit Permissions</div>
+            <div class="divider"></div>
+            <div class="header">
+              Export
+            </div>
+            <div class="item">
+              Share...
+            </div>
+          </div>
+        </div>
+      
+
+      <!-- <button class="ui button" type="button" id="openFile">Open file</button> -->
+      <section id="main">
+      </section>
+    </div>
+  </body>
+
+
+  <script>window.$ = window.jQuery = require('./jquery.js');</script>
+  <script>
+  // You can also require other files to run in this process
+  require('./semantic.min.js')
+  </script>
+
+  <script>
+  // You can also require other files to run in this process
+  require('./renderer.js')
+  </script>
+  <script>
+  // You can also require other files to run in this process
+  require('./app.js')
+  </script>
+</html>
