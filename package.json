@@ -20,6 +20,7 @@
     "electron": "~1.6.2"
   },
   "dependencies": {
+    "highlight.js": "^9.10.0",
     "marked": "^0.3.6"
   }
 }
